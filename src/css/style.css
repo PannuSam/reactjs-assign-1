@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Montserrat;
+}
+
+html,
+body {
+    background-color: #000000;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article {
+    max-width: 66ch;
+    padding: 0 1rem;
+    margin: 2rem auto;
+}
+
+article h1 {
+    font-size: 2.5rem;
+    margin-top: 15rem;
+    text-align: center;
+    color: rgb(255, 244, 96);
+}
+
+#root {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-footer {
+    border: 2px solid yellow;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container-footer p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.9em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 24px;
+}
